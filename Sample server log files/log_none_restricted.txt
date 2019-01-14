@@ -1,0 +1,50 @@
+2018-11-18 15:19:13 {'port_mode': 'YES', 'pasv_mode': 'YES'}
+2018-11-18 15:19:20 Got connection from 127.0.0.1 60956 on port 2100
+2018-11-18 15:19:20 Sent: 220 Welcome to cs472 hw3 FTP server
+2018-11-18 15:19:23 Received: USER cs472
+2018-11-18 15:19:23 Sent: 331 Please specify the password.
+2018-11-18 15:19:26 Received: PASS hw2ftp
+2018-11-18 15:19:26 Sent: 230 Login successful.
+2018-11-18 15:19:27 Received: SYST
+2018-11-18 15:19:27 Sent: 215 linux
+2018-11-18 15:19:30 Received: PORT 127,0,0,1,189,84
+2018-11-18 15:19:30 Sent: 200 Command OK.
+
+2018-11-18 15:19:30 Got connection from 127.0.0.1 on port 48468
+2018-11-18 15:19:31 Received: LIST
+2018-11-18 15:19:31 Sent: 150 Here comes the directory listing.
+2018-11-18 15:19:31 Sent: Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+Sample log files
+Readme.txt
+test.txt
+HW4 answers.txt
+log.txt
+a.txt
+b.txt
+ftpserverd.conf
+
+2018-11-18 15:19:31 Sent: 226 Directory send OK.
+2018-11-18 15:19:39 Received: PASV
+2018-11-18 15:19:39 Sent: 227 Entering Passive Mode (0,0,0,0,241,160).
+2018-11-18 15:19:39 Open a connection on port 61856 in PASV mode for data transfer
+2018-11-18 15:19:40 Received: LIST
+2018-11-18 15:19:40 Sent: 150 Here comes the directory listing.
+2018-11-18 15:19:40 Sent: Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+Sample log files
+Readme.txt
+test.txt
+HW4 answers.txt
+log.txt
+a.txt
+b.txt
+ftpserverd.conf
+
+2018-11-18 15:19:40 Sent: 226 Directory send OK.
+2018-11-18 15:19:43 Received: QUIT
+2018-11-18 15:19:43 Sent: 221 Goodbye.

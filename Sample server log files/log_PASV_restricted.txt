@@ -1,0 +1,55 @@
+2018-11-18 15:14:08 {'pasv_mode': 'NO', 'port_mode': 'YES'}
+2018-11-18 15:14:12 Got connection from 127.0.0.1 60790 on port 2100
+2018-11-18 15:14:12 Sent: 220 Welcome to cs472 hw3 FTP server
+2018-11-18 15:14:15 Received: USER cs472
+2018-11-18 15:14:15 Sent: 331 Please specify the password.
+2018-11-18 15:14:21 Received: PASS hw2ftp
+2018-11-18 15:14:21 Sent: 230 Login successful.
+2018-11-18 15:14:22 Received: SYST
+2018-11-18 15:14:22 Sent: 215 linux
+2018-11-18 15:14:35 Received: PORT 127,0,0,1,142,10
+2018-11-18 15:14:35 Sent: 200 Command OK.
+
+2018-11-18 15:14:35 Got connection from 127.0.0.1 on port 36362
+2018-11-18 15:14:36 Received: LIST
+2018-11-18 15:14:36 Sent: 150 Here comes the directory listing.
+2018-11-18 15:14:36 Sent: Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+Sample log files
+Readme.txt
+test.txt
+HW4 answers.txt
+log.txt
+a.txt
+b.txt
+ftpserverd.conf
+
+2018-11-18 15:14:36 Sent: 226 Directory send OK.
+2018-11-18 15:15:00 Received: PORT 127,0,0,1,145,188
+2018-11-18 15:15:00 Sent: 200 Command OK.
+
+2018-11-18 15:15:00 Got connection from 127.0.0.1 on port 37308
+2018-11-18 15:15:01 Received: STOR /home/phn25/cs472/HW4/a.txt
+2018-11-18 15:15:01 Sent: 150 Accept the specified path.
+2018-11-18 15:15:02 Sent: 226 File transfer completed.
+2018-11-18 15:15:14 Received: PORT 127,0,0,1,222,132
+2018-11-18 15:15:14 Sent: 200 Command OK.
+
+2018-11-18 15:15:14 Got connection from 127.0.0.1 on port 56964
+2018-11-18 15:15:15 Received: RETR /home/phn25/cs472/HW4/test.txt
+2018-11-18 15:15:15 Sent: 150 Here comes the file listing.
+2018-11-18 15:15:15 Sent: HELLO WORLD
+HELLO WORLD HELLO WORLD
+HELLO WORLD HELLO WORLD HELLO WORLD
+
+2018-11-18 15:15:15 Sent: 226 File transfer completed.
+2018-11-18 15:15:29 Received: PASV
+2018-11-18 15:15:29 Sent: 500 Passive mode is restricted. Use active mode instead.
+2018-11-18 15:15:42 Received: PASV
+2018-11-18 15:15:42 Sent: 500 Passive mode is restricted. Use active mode instead.
+2018-11-18 15:15:54 Received: PASV
+2018-11-18 15:15:54 Sent: 500 Passive mode is restricted. Use active mode instead.
+2018-11-18 15:15:58 Received: QUIT
+2018-11-18 15:15:58 Sent: 221 Goodbye.

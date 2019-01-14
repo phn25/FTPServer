@@ -1,0 +1,133 @@
+2018-11-19 17:34:21 {'pasv_mode': 'YES', 'port_mode': 'NO'}
+2018-11-19 17:34:28 Got connection from 127.0.0.1 43148 on port 2100
+2018-11-19 17:34:29 Sent: 220 Welcome to cs472 hw3 FTP server
+2018-11-19 17:34:31 Received: USER cs472
+2018-11-19 17:34:31 Sent: 331 Please specify the password.
+2018-11-19 17:34:35 Received: PASS hw2ftp
+2018-11-19 17:34:35 Sent: 230 Login successful.
+2018-11-19 17:34:36 Received: SYST
+2018-11-19 17:34:36 Sent: 215 linux
+2018-11-19 17:34:39 Received: PORT 127,0,0,1,181,113
+2018-11-19 17:34:39 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-19 17:34:46 Received: PORT 127,0,0,1,235,85
+2018-11-19 17:34:46 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-19 17:34:50 Received: PWD
+2018-11-19 17:34:50 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-19 17:34:59 Received: PASV
+2018-11-19 17:34:59 Sent: 227 Entering Passive Mode (0,0,0,0,74,121).
+2018-11-19 17:34:59 Open a connection on port 19065 in PASV mode for data transfer
+2018-11-19 17:35:00 Received: LIST
+2018-11-19 17:35:00 Sent: 150 Here comes the directory listing.
+2018-11-19 17:35:00 Sent: Sample client log files
+Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+ftpserverd.conf
+Readme.txt
+Sample server log files
+HW4 Answers.txt
+testFile.txt
+log
+
+2018-11-19 17:35:00 Sent: 226 Directory send OK.
+2018-11-19 17:35:04 Received: PASV
+2018-11-19 17:35:04 Sent: 227 Entering Passive Mode (0,0,0,0,43,174).
+2018-11-19 17:35:04 Open a connection on port 11182 in PASV mode for data transfer
+2018-11-19 17:35:05 Received: LIST
+2018-11-19 17:35:05 Sent: 150 Here comes the directory listing.
+2018-11-19 17:35:05 Sent: Sample client log files
+Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+ftpserverd.conf
+Readme.txt
+Sample server log files
+HW4 Answers.txt
+testFile.txt
+log
+
+2018-11-19 17:35:05 Sent: 226 Directory send OK.
+2018-11-19 17:35:23 Received: PWD
+2018-11-19 17:35:23 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-19 17:35:37 Received: PASV
+2018-11-19 17:35:37 Sent: 227 Entering Passive Mode (0,0,0,0,153,80).
+2018-11-19 17:35:37 Open a connection on port 39248 in PASV mode for data transfer
+2018-11-19 17:35:38 Received: LIST /home/phn25/cs472
+2018-11-19 17:35:38 Sent: 150 Here comes the directory listing.
+2018-11-19 17:35:38 Sent: HW2
+HW3
+HW4
+
+2018-11-19 17:35:38 Sent: 226 Directory send OK.
+2018-11-19 17:36:07 Received: PWD
+2018-11-19 17:36:07 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-19 17:36:10 Received: CDUP
+2018-11-19 17:36:10 Sent: 250 Directory successfully changed.
+2018-11-19 17:36:12 Received: PWD
+2018-11-19 17:36:12 Sent: 257 /home/phn25/cs472 is the current directory.
+2018-11-19 17:36:22 Received: CWD /home/phn25/cs472/HW4
+2018-11-19 17:36:22 Sent: 250 Directory successfully changed.
+2018-11-19 17:36:24 Received: PWD
+2018-11-19 17:36:24 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-19 17:36:48 Received: PASV
+2018-11-19 17:36:48 Sent: 227 Entering Passive Mode (0,0,0,0,230,155).
+2018-11-19 17:36:48 Open a connection on port 59035 in PASV mode for data transfer
+2018-11-19 17:36:49 Received: STOR /home/phn25/cs472/HW4/a.tx
+2018-11-19 17:36:49 Sent: 150 Accept the specified path.
+2018-11-19 17:36:50 Sent: 226 File transfer completed.
+2018-11-19 17:37:13 Received: PASV
+2018-11-19 17:37:13 Sent: 227 Entering Passive Mode (0,0,0,0,140,207).
+2018-11-19 17:37:13 Open a connection on port 36047 in PASV mode for data transfer
+2018-11-19 17:37:14 Received: RETR /home/phn25/cs472/HW4/testFile.txt
+2018-11-19 17:37:14 Sent: 150 Here comes the file listing.
+2018-11-19 17:37:14 Sent: HELLO WORLD
+HELLO WORLD HELLO WORLD
+HELLO WORLD HELLO WORLD HELLO WORLD
+
+2018-11-19 17:37:14 Sent: 226 File transfer completed.
+2018-11-19 17:37:20 Received: PASV
+2018-11-19 17:37:20 Sent: 227 Entering Passive Mode (0,0,0,0,125,139).
+2018-11-19 17:37:20 Open a connection on port 32139 in PASV mode for data transfer
+2018-11-19 17:37:21 Received: LIST
+2018-11-19 17:37:21 Sent: 150 Here comes the directory listing.
+2018-11-19 17:37:21 Sent: Sample client log files
+Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+ftpserverd.conf
+Readme.txt
+Sample server log files
+HW4 Answers.txt
+testFile.txt
+log
+a.tx
+b.txt
+
+2018-11-19 17:37:21 Sent: 226 Directory send OK.
+2018-11-19 17:37:29 Received: PASV
+2018-11-19 17:37:29 Sent: 227 Entering Passive Mode (0,0,0,0,206,4).
+2018-11-19 17:37:29 Open a connection on port 52740 in PASV mode for data transfer
+2018-11-19 17:37:30 Received: LIST
+2018-11-19 17:37:30 Sent: 150 Here comes the directory listing.
+2018-11-19 17:37:30 Sent: Sample client log files
+Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+ftpserverd.conf
+Readme.txt
+Sample server log files
+HW4 Answers.txt
+testFile.txt
+log
+a.tx
+b.txt
+
+2018-11-19 17:37:30 Sent: 226 Directory send OK.
+2018-11-19 17:37:37 Received: PORT 127,0,0,1,135,181
+2018-11-19 17:37:37 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-19 17:37:44 Received: QUIT
+2018-11-19 17:37:44 Sent: 221 Goodbye.

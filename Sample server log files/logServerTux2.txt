@@ -1,0 +1,55 @@
+2018-11-18 15:00:03 {'pasv_mode': 'YES', 'port_mode': 'NO'}
+2018-11-18 15:00:06 Got connection from 127.0.0.1 60344 on port 2100
+2018-11-18 15:00:06 Sent: 220 Welcome to cs472 hw3 FTP server
+2018-11-18 15:00:10 Received: USER cs472
+2018-11-18 15:00:10 Sent: 331 Please specify the password.
+2018-11-18 15:00:12 Received: PASS hw2ftp
+2018-11-18 15:00:12 Sent: 230 Login successful.
+2018-11-18 15:00:13 Received: SYST
+2018-11-18 15:00:13 Sent: 215 linux
+2018-11-18 15:00:33 Received: PASV
+2018-11-18 15:00:33 Sent: 227 Entering Passive Mode (0,0,0,0,254,44).
+2018-11-18 15:00:33 Open a connection on port 65068 in PASV mode for data transfer
+2018-11-18 15:00:34 Received: STOR /home/phn25/cs472/HW4/a.txt
+2018-11-18 15:00:34 Sent: 150 Accept the specified path.
+2018-11-18 15:00:35 Sent: 226 File transfer completed.
+2018-11-18 15:01:13 Received: PASV
+2018-11-18 15:01:13 Sent: 227 Entering Passive Mode (0,0,0,0,135,96).
+2018-11-18 15:01:13 Open a connection on port 34656 in PASV mode for data transfer
+2018-11-18 15:01:14 Received: LIST
+2018-11-18 15:01:14 Sent: 150 Here comes the directory listing.
+2018-11-18 15:01:14 Sent: Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+Sample log files
+Readme.txt
+test.txt
+HW4 answers.txt
+log.txt
+ftpserverd.conf
+a.txt
+
+2018-11-18 15:01:14 Sent: 226 Directory send OK.
+2018-11-18 15:01:47 Received: PASV
+2018-11-18 15:01:47 Sent: 227 Entering Passive Mode (0,0,0,0,125,50).
+2018-11-18 15:01:47 Open a connection on port 32050 in PASV mode for data transfer
+2018-11-18 15:01:48 Received: RETR /home/phn25/cs472/HW4/test.txt
+2018-11-18 15:01:48 Sent: 150 Here comes the file listing.
+2018-11-18 15:01:48 Sent: HELLO WORLD
+HELLO WORLD HELLO WORLD
+HELLO WORLD HELLO WORLD HELLO WORLD
+
+2018-11-18 15:01:48 Sent: 226 File transfer completed.
+2018-11-18 15:02:02 Received: PWD
+2018-11-18 15:02:02 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-18 15:02:05 Received: CDUP
+2018-11-18 15:02:05 Sent: 250 Directory successfully changed.
+2018-11-18 15:02:10 Received: PWD
+2018-11-18 15:02:10 Sent: 257 /home/phn25/cs472 is the current directory.
+2018-11-18 15:02:24 Received: CWD /home/phn25/cs472/HW4
+2018-11-18 15:02:24 Sent: 250 Directory successfully changed.
+2018-11-18 15:02:26 Received: PWD
+2018-11-18 15:02:26 Sent: 257 /home/phn25/cs472/HW4 is the current directory.
+2018-11-18 15:02:34 Received: QUIT
+2018-11-18 15:02:34 Sent: 221 Goodbye.

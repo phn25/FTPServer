@@ -1,0 +1,50 @@
+2018-11-18 15:09:17 {'port_mode': 'NO', 'pasv_mode': 'YES'}
+2018-11-18 15:09:21 Got connection from 127.0.0.1 60636 on port 2100
+2018-11-18 15:09:21 Sent: 220 Welcome to cs472 hw3 FTP server
+2018-11-18 15:09:24 Received: USER cs472
+2018-11-18 15:09:24 Sent: 331 Please specify the password.
+2018-11-18 15:09:27 Received: PASS hw2ftp
+2018-11-18 15:09:27 Sent: 230 Login successful.
+2018-11-18 15:09:28 Received: SYST
+2018-11-18 15:09:28 Sent: 215 linux
+2018-11-18 15:09:31 Received: PORT 127,0,0,1,230,78
+2018-11-18 15:09:31 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-18 15:10:04 Received: PORT 127,0,0,1,143,67
+2018-11-18 15:10:04 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-18 15:10:15 Received: PORT 127,0,0,1,158,172
+2018-11-18 15:10:15 Sent: 500 Active mode is restricted. Use passive mode instead.
+2018-11-18 15:10:24 Received: PASV
+2018-11-18 15:10:24 Sent: 227 Entering Passive Mode (0,0,0,0,164,1).
+2018-11-18 15:10:24 Open a connection on port 41985 in PASV mode for data transfer
+2018-11-18 15:10:25 Received: LIST
+2018-11-18 15:10:25 Sent: 150 Here comes the directory listing.
+2018-11-18 15:10:25 Sent: Log.py
+FtpUsers.txt
+__pycache__
+FtpServer.py
+Sample log files
+Readme.txt
+test.txt
+HW4 answers.txt
+log.txt
+ftpserverd.conf
+
+2018-11-18 15:10:25 Sent: 226 Directory send OK.
+2018-11-18 15:10:34 Received: PASV
+2018-11-18 15:10:34 Sent: 227 Entering Passive Mode (0,0,0,0,25,73).
+2018-11-18 15:10:34 Open a connection on port 6473 in PASV mode for data transfer
+2018-11-18 15:10:35 Received: STOR /home/phn25/cs472/HW4/a.txt
+2018-11-18 15:10:35 Sent: 150 Accept the specified path.
+2018-11-18 15:10:36 Sent: 226 File transfer completed.
+2018-11-18 15:10:48 Received: PASV
+2018-11-18 15:10:48 Sent: 227 Entering Passive Mode (0,0,0,0,205,156).
+2018-11-18 15:10:48 Open a connection on port 52636 in PASV mode for data transfer
+2018-11-18 15:10:49 Received: RETR /home/phn25/cs472/HW4/test.txt
+2018-11-18 15:10:49 Sent: 150 Here comes the file listing.
+2018-11-18 15:10:49 Sent: HELLO WORLD
+HELLO WORLD HELLO WORLD
+HELLO WORLD HELLO WORLD HELLO WORLD
+
+2018-11-18 15:10:49 Sent: 226 File transfer completed.
+2018-11-18 15:10:53 Received: QUIT
+2018-11-18 15:10:53 Sent: 221 Goodbye.

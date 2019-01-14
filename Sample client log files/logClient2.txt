@@ -1,0 +1,70 @@
+11/12/18 16:57:0025 Connecting to 10.250.105.105 at port 2100
+11/12/18 16:57:0025 Received: 220 Welcome to cs472 hw3 FTP server
+11/12/18 16:57:0027 Sent: USER cs472
+11/12/18 16:57:0028 Received: 331 Please specify the password.
+11/12/18 16:57:0031 Sent: PASS hw2ftp
+11/12/18 16:57:0032 Received: 230 Login successful.
+11/12/18 16:57:0036 Sent: PASV
+11/12/18 16:57:0037 Received: 227 Entering Passive Mode (10,250,105,105,190,190).
+11/12/18 16:57:0042 Sent: LIST .
+11/12/18 16:57:0042 Connecting to 10.250.105.105 at port 48830
+11/12/18 16:57:0043 Received: 150 Here comes the directory listing.
+11/12/18 16:57:0043 Received: Client.java
+11/12/18 16:57:0043 Received: HW3 Answers.txt
+11/12/18 16:57:0043 Received: logClient.txt
+11/12/18 16:57:0043 Received: .DS_Store
+11/12/18 16:57:0043 Received: Log1.py
+11/12/18 16:57:0043 Received: logClient1.txt
+11/12/18 16:57:0043 Received: Log.py
+11/12/18 16:57:0043 Received: Makefile
+11/12/18 16:57:0043 Received: client.py
+11/12/18 16:57:0043 Received: FtpUsers.txt
+11/12/18 16:57:0043 Received: __pycache__
+11/12/18 16:57:0043 Received: FtpServer.py
+11/12/18 16:57:0043 Received: Client.class
+11/12/18 16:57:0043 Received: Readme.txt
+11/12/18 16:57:0043 Received: test.txt
+11/12/18 16:57:0043 Received: logServer1.txt
+11/12/18 16:57:0043 Received: logServer.txt
+11/12/18 16:57:0043 Received: 226 Directory send OK.
+11/12/18 16:57:0057 Sent: PASV
+11/12/18 16:57:0058 Received: 227 Entering Passive Mode (10,250,105,105,189,25).
+11/12/18 16:58:0002 Sent: RETR test.txt
+11/12/18 16:58:0002 Connecting to 10.250.105.105 at port 48409
+11/12/18 16:58:0003 Received: 150 Here comes the file listing.
+11/12/18 16:58:0008 Start writing to file
+11/12/18 16:58:0008 Received: 226 File transfer completed.
+11/12/18 16:58:0014 Sent: PASV
+11/12/18 16:58:0015 Received: 227 Entering Passive Mode (10,250,105,105,185,121).
+11/12/18 16:58:0016 Sent: LIST .
+11/12/18 16:58:0016 Connecting to 10.250.105.105 at port 47481
+11/12/18 16:58:0017 Received: 150 Here comes the directory listing.
+11/12/18 16:58:0017 Received: Client.java
+11/12/18 16:58:0017 Received: HW3 Answers.txt
+11/12/18 16:58:0017 Received: logClient.txt
+11/12/18 16:58:0017 Received: .DS_Store
+11/12/18 16:58:0017 Received: Log1.py
+11/12/18 16:58:0017 Received: logClient1.txt
+11/12/18 16:58:0017 Received: Log.py
+11/12/18 16:58:0017 Received: Makefile
+11/12/18 16:58:0017 Received: client.py
+11/12/18 16:58:0017 Received: FtpUsers.txt
+11/12/18 16:58:0017 Received: __pycache__
+11/12/18 16:58:0017 Received: FtpServer.py
+11/12/18 16:58:0017 Received: Client.class
+11/12/18 16:58:0017 Received: Readme.txt
+11/12/18 16:58:0017 Received: test.txt
+11/12/18 16:58:0017 Received: hello.txt
+11/12/18 16:58:0017 Received: logServer1.txt
+11/12/18 16:58:0017 Received: logServer.txt
+11/12/18 16:58:0017 Received: 226 Directory send OK.
+11/12/18 16:58:0031 Sent: PASV
+11/12/18 16:58:0032 Received: 227 Entering Passive Mode (10,250,105,105,139,187).
+11/12/18 16:58:0050 Sent: STOR ../helloParent.txt
+11/12/18 16:58:0050 Connecting to 10.250.105.105 at port 35771
+11/12/18 16:58:0051 Received: 150 Accept the specified path.
+11/12/18 16:58:0054 Start reading from file
+11/12/18 16:58:0055 Received: 226 File transfer completed.
+11/12/18 16:59:0019 Sent: QUIT
+11/12/18 16:59:0020 Received: 221 Goodbye.
+11/12/18 16:59:0020 Connection closed.

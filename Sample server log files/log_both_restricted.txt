@@ -1,0 +1,2 @@
+2018-11-18 15:18:13 {'port_mode': 'NO', 'pasv_mode': 'NO'}
+2018-11-18 15:18:13 Fatal error. Both port_mode and part_mode are restricted.

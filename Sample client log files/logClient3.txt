@@ -1,0 +1,22 @@
+11/12/18 17:01:0005 Connecting to 10.250.105.105 at port 2100
+11/12/18 17:01:0005 Received: 220 Welcome to cs472 hw3 FTP server
+11/12/18 17:01:0007 Sent: USER cs472
+11/12/18 17:01:0008 Received: 331 Please specify the password.
+11/12/18 17:01:0010 Sent: PASS hw2ftp
+11/12/18 17:01:0011 Received: 230 Login successful.
+11/12/18 17:01:0016 Sent: PASV
+11/12/18 17:01:0017 Received: 227 Entering Passive Mode (10,250,105,105,47,102).
+11/12/18 17:01:0018 Sent: LIST test.txt
+11/12/18 17:01:0018 Connecting to 10.250.105.105 at port 12134
+11/12/18 17:01:0019 Received: 150 Here comes the directory listing.
+11/12/18 17:01:0019 Received: HELLO WORLD
+11/12/18 17:01:0019 Received: HELLO WORLD HELLO WORLD
+11/12/18 17:01:0019 Received: HELLO WORLD HELLO WORLD HELLO WORLD
+11/12/18 17:01:0019 Received: 226 Directory send OK.
+11/12/18 17:01:0030 Sent: SYST
+11/12/18 17:01:0031 Received: 215 darwin
+11/12/18 17:01:0058 Sent: CWD /Users/nguyenphuong/Desktop/Classes/CS472/HW/HW3
+11/12/18 17:01:0059 Received: 250 Directory successfully changed.
+11/12/18 17:02:0002 Sent: QUIT
+11/12/18 17:02:0003 Received: 221 Goodbye.
+11/12/18 17:02:0003 Connection closed.
